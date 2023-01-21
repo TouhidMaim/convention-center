@@ -1,0 +1,40 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.cc-div{
+    position: relative;
+}
+.cc-toast{
+    position: absolute;
+    right: -96px;
+    top: 110px;
+    width: 243px;
+    border-left: 6px solid #3F87F5;
+}
+.cc-toast i{
+    color: #3F87F5;
+    margin-right: 5px;
+}
+.cc-btn-close{
+    width: 7px;
+    height: 5px;
+    margin-bottom: 3px;
+}
+.cc-package-3{
+    position: relative;
+}
+.cc-btn-hot{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: rgba(247, 43, 43, 0.967);
+    padding: 5px 14px;
+    border-radius: 25px;
+    top: -12px;
+    right: 36px;
+}
+@media screen and (max-width:576px) {
+    .cc-toast{
+        right: 8px;
+    }
+}
